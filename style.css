@@ -1,0 +1,38 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  margin: ;
+  position: relative;
+  height: 100vh;
+  display: flex;
+}
+
+.mainContainer {
+  width: 80%;
+  height: 80;
+  position: relative;
+  background-color: azure;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.image {
+  display: flex;
+
+  height: 80vh;
+
+  position: relative;
+}
+
+img {
+  display: flex;
+  position: ;
+}
