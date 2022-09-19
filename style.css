@@ -6,33 +6,101 @@
 .container {
   display: flex;
   background-color: black;
-  justify-content: center;
-  margin: ;
-  position: relative;
   height: 100vh;
-  display: flex;
 }
 
 .mainContainer {
-  width: 80%;
-  height: 80;
-  position: relative;
+  border-radius: 15px;
+  width: 70vw;
+  height: 80vh;
   background-color: azure;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  box-shadow: 10px 10px 10px 50px #4e4e4e;
+  position: relative;
+}
+
+.content {
+  flex-direction: row;
+  position: relative;
 }
 
 .image {
-  display: flex;
-
-  height: 80vh;
-
-  position: relative;
+  width: 25vw;
+  height: 100%;
+  position: absolute;
 }
 
-img {
+#sideImage {
+  width: 25vw;
+  height: 80vh;
+  position: absolute;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.main {
+  background-color: rgb(227, 227, 247);
+  position: absolute;
+  width: 45vw;
+  height: 80vh;
+  left: 25vw;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+  
+
+
+.sForm {
+  position: relative;
+  background-color: bisque;
+  width: 45vw;
+  top: 200px;
+  height: 280px;
+ 
+
+ 
+}
+
+
+ 
+
+
+  
+
+  
+
+
+.sideCover {
   display: flex;
-  position: ;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 25vw;
+  position: absolute;
+  top: 100px;
+  height: 100px;
+  background-color: #4e4e4e;
+  color: aqua;
+  opacity: 50%;
+}
+
+/* input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid:required {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid rgb(6, 255, 6);
+} */
+
+.forms {
+  background-color: rgb(234, 234, 250);
+  width: 10vw;
+  
 }
