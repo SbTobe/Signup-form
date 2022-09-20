@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <div class="mainContainer">
-        <div class="content">
+        <div class="left">
           <div class="image">
             <img
               src="./Images/coverImage.jpg"
@@ -20,85 +20,105 @@
             />
             <div class="sideCover"><p>GET RICH</p></div>
           </div>
-          <div class="main">
-            <div class="sForm">
+        </div>
+        <div class="right">
+          
+          <div class="forms">
               
-              
+            
+              <div class="fName">
                 <form type="text" action="example.com/path" method="post">
-                  <label for="first_name">First name</label>
+                  <label for="first_name" class="form-label">First name</label>
                   <input
                     type="text"
                     id="first_name"
                     name="first_name"
+                    class="form-input"
                     required
-                    class="forms"
+                    
                   />
                 </form>
-
+              </div>
+              <div class="email">
                 <form type="text" action="example.com/path" method="post">
-                  <label for="email">Email</label>
+                  <label for="email" class="form-label">Email</label>
                   <input
                     type="email"
                     id="email"
                     name="email"
+                    class="form-input"
                     required
-                    class="forms"
+                    
                   />
                 </form>
+              </div>
+              <div class="password">
                 <form type="text" action="example.com/path" method="post">
-                  <label for="password">Password</label>
+                  <label for="password" class="form-label">Password</label>
                   <input
                     type="password"
                     id="password"
                     name="password"
                     minlength="8"
+                    class="form-input"
                     required
-                    class="forms"
+                    
                   />
                 </form>
-              
+              </div>
+
+              <div class="lName">
 
               
                 <form type="text" action="example.com/path" method="post">
-                  <label for="last_name">Last name</label>
+                  <label for="last_name" class="form-label">Last name</label>
                   <input
                     type="text"
                     id="last_name"
                     name="last_name"
+                    class="form-input"
                     required
-                    class="forms"
+                    
                   />
                 </form>
+              </div>
 
+              <div class="phone">
                 <form type="text" action="example.com/path" method="post">
-                  <label for="phone_number">Phone number</label>
+                  <label for="phone_number" class="form-label">Phone number</label>
                   <input
                     type="tel"
                     id="phone_number"
                     name="phone_number"
                     minlength="11"
                     maxlength="11"
+                    class="form-input"
                     required
-                    class="forms"
+                    
                   />
                 </form>
-
+              </div>  
+              <div class="cPassword">
                 <form type="text" action="example.com/path" method="post">
-                  <label for="confirm_password">Confirm password</label>
+                  <label for="confirm_password" class="form-label">Confirm password</label>
                   <input
                     type="password"
                     id="confirm_password"
                     name="confirm_password"
                     minlength="8"
+                    class="form-input"
                     required
-                    class="forms"
+                    
                   />
                 </form>
               
+              </div>
             
-          </div>
-        </div>
-      </div>
+              </div>
+            
+          
+        
+            </div>
     </div>
   </body>
 </html>
