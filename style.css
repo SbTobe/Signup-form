@@ -1,6 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* Container should be good */
@@ -8,121 +9,134 @@
   background-color: black;
   height: 100vh;
   width: 100vw;
-  position: absolute;
-
 }
 
 /* should be good */
 .mainContainer {
+  padding-top: 10vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
   width: 70vw;
-  height: 80vh;
-  background-color: azure;
-  position: absolute;
-  top: 10vh;
-  left: 15vw;
-  right: 15vw;
+  height: 80%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
 }
-/* should be good */
+/* image and image cover  */
 .left {
   background-color: rgb(31, 31, 221);
-  position: absolute;
+
   width: 30vw;
-  height: 60vh;
-  
+  height: 80vh;
 }
 
-
-/* should be good */
 .image {
+  position: relative;
   width: 25vw;
   height: 80vh;
-  position: absolute;
 }
 
-/* should be good */
 #sideImage {
   width: 30vw;
   height: 80vh;
-  position: absolute;
 }
 
-/* Should be good */
-
 .sideCover {
+  position: absolute;
+  top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
   width: 30vw;
-  position: absolute;
-  top: 150px;
-  height: 100px;
   background-color: #4e4e4e;
   color: aqua;
   opacity: 50%;
 }
-
+/* only work under this for now */
 .right {
- 
-  position: relative;
-  background-color: #4e4e4e;
-  width: 40vw;
-  left: 30vw;
-  height: 80vh;
+  flex: 5;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.forms {
-  position: absolute;
+.right > p {
+  font-size: 1.4rem;
+  margin-left: var(--left-space);
+  font-weight: bold;
+  max-width: 80%;
+  margin-bottom: 8px;
+  margin-left: 15px;
+}
+
+.right p:first-child {
+  margin-top: 0;
+  margin-left: 15px;
+}
+
+.input-selection {
+  color: black;
   background-color: white;
-  width: 40vw;
-  top: 33vh;
-  height: 20vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  
-  
-  
+  margin-top: 32px;
+  padding-top: 16px;
+
+  padding-bottom: 16px;
+  padding-left: var(--left-space);
+  box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
-.form-label {
-  font-size: large;
-  padding: 5px;
-}  
-  
+.input-selection > div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 15px;
+  margin-bottom: 18px;
+}
 
+.input-selection label {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1px;
+}
+
+.input-selection form {
   
- 
-.form-input {
+  border: 1px solid #dbbad3;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 100%;
+  font-size: 1rem;
+  margin-right: 32px;
+  margin-left: 15px;
+}
+
+input {
+  border: none;
+  width: 80%;
+  height: 20px;
+  margin-left: 15px;
+}
+
+.inputs label {
   display: block;
-  width: 175px;
-  height: 25px;
+  width: 80%;
   
 }
-  
 
-  
- 
-  
-
-  
- 
-  
-  
-
-
-
-
+.right h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 24px;
+  margin-left: 15px;
+}
 
 /* input:invalid {
-  border: 2px solid red;
-}
-
-input:invalid:required {
-  border: 2px solid red;
+  border: 1px red;
+  animation-direction: alternate;
 }
 
 input:valid {
   border: 2px solid rgb(6, 255, 6);
 } */
-
-
