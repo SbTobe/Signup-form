@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+
+
   </head>
   <body>
     <div class="container">
@@ -15,40 +18,40 @@
             <img
               src="./Images/coverImage.jpg"
               alt="cover image"
-              srcset=""
+                srcset=""
               id="sideImage"
             />
-            <div class="sideCover"><p>GET RICH</p></div>
+            <div class="sideCover"><p>Sign up form</p></div>
           </div>
         </div>
         <div class="right">
         <p>
-          This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up
-          <em>now</em> to get started.
+         This is not at all real. We are not real. This is all fake. <br> Sign up
+          <em>now</em> to find out the truth.
         </p>
           <div class="input-selection">
-            <h3>lets do this</h3>
+            <h3>Sign up below</h3>
             <div class="inputs">
               
            
               <div class="fName">
-                <form type="text" action="example.com/path" method="post">
-                  <label for="first_name" class="form-label">First name</label>
+                <form type="text" action="example.com/path" method="post" id="form">
+                  <label for="first_name" class="form-label" >First name</label>
                   <input
                     type="text"
                     id="first_name"
                     name="first_name"
                     class="form-input"
                     required
+                    />
                     
-                  />
                 </form>
               </div>
+                    
 
 
               <div class="lName">
-                <form type="text" action="example.com/path" method="post">
+                <form type="text" action="example.com/path" method="post" id="form">
                   <label for="last_name" class="form-label">Last name</label>
                   <input
                     type="text"
@@ -63,7 +66,7 @@
 
 
               <div class="email">
-                <form type="text" action="example.com/path" method="post">
+                <form type="text" action="example.com/path" method="post" id="form">
                   <label for="email" class="form-label">Email</label>
                   <input
                     type="email"
@@ -78,7 +81,7 @@
 
 
               <div class="phone">
-                <form type="text" action="example.com/path" method="post">
+                <form type="text" action="example.com/path" method="post" id="form">
                   <label for="phone_number" class="form-label">Phone number</label>
                   <input
                     type="tel"
@@ -93,7 +96,7 @@
                 </form>
               </div>  
               <div class="password">
-                <form type="text" action="example.com/path" method="post">
+                <form type="text" action="example.com/path" method="post" id="form">
                   <label for="password" class="form-label">Password</label>
                   <input
                     type="password"
@@ -107,14 +110,8 @@
                 </form>
               </div>
 
-              
-              
-
-
-
-
               <div class="cPassword">
-                <form type="text" action="example.com/path" method="post">
+                <form type="text" action="example.com/path" method="post" onSubmit = return checkPassword()" id="form">
                   <label for="confirm_password" class="form-label">Confirm password</label>
                   <input
                     type="password"
@@ -127,13 +124,24 @@
                   />
                 </form>
               </div>
+            </div>
+              
+          </div>
+          <button class="button" type="submit" form="form" action="example.com/path"> Create Account</button>
+          <h3>Already have an account? <a href="example.com/path">Log in</a></h3>
+          </div>
+        </div>
+
+    
+          
+</body>
+</html>
+              
+
+
+              
+
               
             
-            </div>
             
           
-            </div>
-            </div>
-          </div>
-  </body>
-</html>
